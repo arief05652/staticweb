@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(70, 225, 217);
+    padding: 5px;
+    position :sticky;
+}
+
+.navbar-container {
+    padding: 10px;    
+}
+
+.menu-button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-button {
+    list-style-type: none;
+}
+
+.menu-button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 10px solid transparent;
+}
+
+.menu-button a:hover {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.home-container {
+    background-color: bisque;
+    padding: 10px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.foto {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.experience-container {
+    background-color: lightgray;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.list-lang {
+    display: flex;
+    align-items: center;
+}
+
+.list-lang li {
+    list-style-type: none;
+}
+
+.education-container {
+    background-color: lightblue;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+}
+
